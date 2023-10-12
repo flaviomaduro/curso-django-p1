@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
 def home(request):
-    return render(request, 'home.html')
+
+    return render(request, 'recipes/home.html') #Adicionar pasta no templates Para servir de namespace e não comflitar com arquivos de nome igual
